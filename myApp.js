@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+mongoose.connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let Person;
 
